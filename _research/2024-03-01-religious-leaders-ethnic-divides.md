@@ -1,6 +1,6 @@
 ---
 title: "Can Religion Bridge Ethnic Divides? Experimental Evidence from the DRC"
-collection: publications
+collection: research
 category: manuscripts
 permalink: /publication/religious-leaders-ethnic-divides
 excerpt: "With Elie Kabue."

@@ -1,14 +1,14 @@
 ---
-title: "The Legal Antecedents of State Capacity"
-collection: publications
+title: "Formal and Informal Justice in a Fragile State"
+collection: research
 category: manuscripts
-permalink: /publication/legal-antecedents-state-capacity
+permalink: /publication/formal-informal-justice
 excerpt: "With Augustin Bergeron, Eva Davoine, Marina Ngoma, James Robinson, and Jonathan Weigel."
-date: 2025-02-01
-order: 3
+date: 2025-03-01
+order: 4
 status: "Work in progress"
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis, nibh vitae laoreet luctus, justo arcu gravida urna, vitae pulvinar nisi lorem non erat."
-citation: "Bergeron, Augustin, Eva Davoine, Gabriel Granato, Marina Ngoma, James Robinson, and Jonathan Weigel. \"The Legal Antecedents of State Capacity.\" Work in progress."
+citation: "Bergeron, Augustin, Eva Davoine, Gabriel Granato, Marina Ngoma, James Robinson, and Jonathan Weigel. \"Formal and Informal Justice in a Fragile State.\" Work in progress."
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis, nibh vitae laoreet luctus, justo arcu gravida urna, vitae pulvinar nisi lorem non erat.

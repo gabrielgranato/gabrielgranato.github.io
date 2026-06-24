@@ -9,13 +9,13 @@ This page lists selected working papers and research projects.
 
 {% include base_path %}
 
-{% assign ordered_publications = site.publications | sort: "order" %}
+{% assign ordered_research = site.research | sort: "order" %}
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    {% for post in ordered_publications %}
+    {% for post in ordered_research %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -27,7 +27,7 @@ This page lists selected working papers and research projects.
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in ordered_publications %}
+    {% for post in ordered_research %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

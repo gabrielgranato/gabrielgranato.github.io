@@ -1,6 +1,6 @@
 ---
 title: "Signals, Noise, and Narratives: Cultural Storytelling as a Technology for Cooperation"
-collection: publications
+collection: research
 category: manuscripts
 permalink: /publication/signals-noise-narratives
 excerpt: "With Elie Kabue and Edgar Sanchez-Cuevas."
