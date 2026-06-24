@@ -1,0 +1,41 @@
+.publication-funding {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.75em;
+}
+
+.publication-funding__label {
+  margin-right: 0.25rem;
+  font-weight: 600;
+}
+
+.publication-funding__tag {
+  display: inline-block;
+  margin: 0.15rem 0.2rem 0.15rem 0;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-code-background-color);
+  line-height: 1.4;
+}
+
+.publication-abstract__media-placeholder,
+.photo-placeholder {
+  display: flex;
+  min-height: 11rem;
+  margin: 0.75rem 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-code-background-color);
+  color: var(--global-text-color-light);
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.personal-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}

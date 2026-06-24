@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Gabriel Granato initials</title>
+  <desc id="desc">A simple monogram avatar with the initials G G.</desc>
+  <rect width="300" height="300" fill="#f7f4ef"/>
+  <circle cx="150" cy="150" r="112" fill="#1f4e5f"/>
+  <text x="150" y="168" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#ffffff">GG</text>
+</svg>

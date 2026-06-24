@@ -1,0 +1,39 @@
+---
+layout: archive
+title: "Research"
+permalink: /publications/
+author_profile: true
+---
+
+This page lists selected working papers and research projects.
+
+{% include base_path %}
+
+{% assign ordered_publications = site.publications | sort: "order" %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in ordered_publications %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in ordered_publications %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<h2>Pre-PhD work</h2>
+
+<p>Before the Ph.D., I was interested in local public good provision in Brazil and the political cycles that shape when public investments are started, delayed, or completed.</p>
+
+<p><strong>Master's thesis.</strong> <a href="https://www.dropbox.com/s/l6kjqapv5a5thx5/tese_gabriel_granato.pdf?dl=0">"Political turnover, electoral incentives and public inefficiencies: evidence from unfinished infrastructure projects in Brazil."</a> M.Sc. thesis, PUC-Rio. Advisor: Claudio Ferraz.</p>
