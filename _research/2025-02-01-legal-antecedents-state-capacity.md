@@ -2,7 +2,7 @@
 title: "The Legal Antecedents of State Capacity"
 collection: research
 category: manuscripts
-permalink: /publication/legal-antecedents-state-capacity
+permalink: /research/legal-antecedents-state-capacity
 excerpt: "With Augustin Bergeron, Eva Davoine, Marina Ngoma, James Robinson, and Jonathan Weigel."
 date: 2025-02-01
 order: 3

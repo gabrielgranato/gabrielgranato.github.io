@@ -2,7 +2,7 @@
 title: "Formal and Informal Justice in a Fragile State"
 collection: research
 category: manuscripts
-permalink: /publication/formal-informal-justice
+permalink: /research/formal-informal-justice
 excerpt: "With Augustin Bergeron, Eva Davoine, Marina Ngoma, James Robinson, and Jonathan Weigel."
 date: 2025-03-01
 order: 4
