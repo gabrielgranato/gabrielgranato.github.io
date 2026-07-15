@@ -20,5 +20,4 @@ Current projects
 
 - Can Religion Bridge Ethnic Divides? Experimental Evidence from the DRC, with Elie Kabue.
 - Signals, Noise, and Narratives: Cultural Storytelling as a Technology for Cooperation, with Elie Kabue and Edgar Sanchez-Cuevas.
-- The Legal Antecedents of State Capacity, with Augustin Bergeron, Eva Davoine, Marina Ngoma, James Robinson, and Jonathan Weigel.
 - Formal and Informal Justice in a Fragile State, with Augustin Bergeron, Eva Davoine, Marina Ngoma, James Robinson, and Jonathan Weigel.
