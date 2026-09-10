@@ -19,6 +19,7 @@ layout: compress
         {% for link in site.data.navigation.main %}
           <a href="{{ link.url | relative_url }}"{% if page.url contains link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
         {% endfor %}
+        <span class="cv-placeholder">CV forthcoming</span>
       </nav>
     </header>
     <main id="content" class="site-content">{{ content }}</main>
