@@ -20,6 +20,8 @@
 .site-name { font-size: 21px; color: var(--ink) !important; }
 .site-header nav { display: flex; gap: 32px; font: 14px/1.5 Arial, sans-serif; }
 .site-header nav a { padding: 14px 0; }
+.site-header nav .cv-placeholder { padding: 14px 0; }
+.cv-placeholder { color: var(--muted); }
 .site-header nav a[aria-current] { text-decoration: underline; }
 .site-content { min-height: 65vh; padding-block: 48px 56px; }
 .classic-site h1, .classic-site h2, .classic-site h3 { font-weight: 400; line-height: 1.25; }
@@ -34,6 +36,7 @@
 .profile-text .education { color: var(--muted); font-size: 15px; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 22px; font: 13px/1.5 Arial, sans-serif; margin-top: 24px; }
 .profile-links a { padding-block: 5px; }
+.profile-links .cv-placeholder { padding-block: 5px; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; border-bottom: 1px solid var(--ink); padding-bottom: 15px; }
 .section-heading h1, .section-heading h2 { margin: 0; }
 .section-heading p, .section-heading a { margin: 0; font: 13px/1.5 Arial, sans-serif; color: var(--muted); }
