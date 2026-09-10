@@ -8,9 +8,11 @@ layout: classic
   {% if page.collection == 'research' %}
     <div class="coauthors">{{ page.excerpt | markdownify }}</div>
     {% include classic-funding.html paper=page %}
-    <h2>Abstract</h2>
-    {{ content }}
-    <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
+    {% if page.abstract and page.abstract != '' %}
+      <h2>Abstract</h2>
+      <p>{{ page.abstract }}</p>
+      <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
+    {% endif %}
     {% if page.paperurl %}<a href="{{ page.paperurl }}">Download paper &darr;</a>{% endif %}
   {% else %}
     <p class="course-term">{{ page.term }} &middot; {{ page.venue }}</p>
