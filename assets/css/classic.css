@@ -27,8 +27,8 @@
 .classic-site h2 { font-size: 28px; margin: 0 0 20px; }
 .classic-site h3 { font-size: 23px; margin: 0 0 10px; }
 .classic-site p { margin: 0 0 18px; }
-.profile-intro { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 42px; align-items: start; padding: 0 0 40px; }
-.profile-photo { display: block; width: 190px; height: 238px; object-fit: cover; border-radius: 3px; background: var(--soft); }
+.profile-intro { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 42px; align-items: start; padding: 0 0 40px; }
+.profile-photo { display: block; width: 270px; height: 338px; object-fit: cover; border-radius: 3px; background: var(--soft); }
 .profile-photo.is-placeholder { object-fit: contain; padding: 14px; }
 .profile-text .affiliation { font: 14px/1.7 Arial, sans-serif; color: var(--muted); margin: 0 0 24px; }
 .profile-text .education { color: var(--muted); font-size: 15px; }
@@ -74,14 +74,14 @@
 .site-footer a { text-decoration: none; overflow-wrap: anywhere; }
 .skip-link { position: absolute; top: 10px; left: 10px; padding: 10px; background: #fff; transform: translateY(-160%); }
 .skip-link:focus { transform: none; }
-@media (max-width: 680px) {
+@media (max-width: 760px) {
   .site-header, .site-content, .site-footer { width: calc(100% - 40px); }
-  .site-header { min-height: 76px; gap: 15px; }
+  .site-header { min-height: 76px; gap: 8px 15px; flex-wrap: wrap; padding-block: 12px; }
   .site-name { font-size: 18px; }
   .site-header nav { gap: 20px; font-size: 13px; }
   .site-content { padding-block: 30px 38px; }
   .profile-intro { grid-template-columns: 1fr; gap: 25px; }
-  .profile-photo { width: 136px; height: 170px; }
+  .profile-photo { width: 210px; height: 263px; }
   .classic-site h1 { font-size: 36px; }
   .classic-site h3, .course h2 { font-size: 21px; }
   .classic-site h1, .classic-site h2, .classic-site h3 { overflow-wrap: anywhere; }
