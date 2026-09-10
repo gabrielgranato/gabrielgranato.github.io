@@ -257,7 +257,7 @@ defaults:
       path: ""
       type: teaching
     values:
-      layout: single
+      layout: classic-entry
       author_profile: true
       share: true
       comments: true
@@ -266,7 +266,7 @@ defaults:
       path: ""
       type: research
     values:
-      layout: single
+      layout: classic-entry
       author_profile: true
       share: true
       comments: true

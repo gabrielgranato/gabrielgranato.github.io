@@ -1,0 +1,20 @@
+---
+layout: classic
+---
+<article class="entry">
+  <a class="back-link" href="{{ page.collection | prepend: '/' | append: '/' | relative_url }}">&larr; {{ page.collection | capitalize }}</a>
+  {% if page.status %}<p class="eyebrow">{{ page.status }}</p>{% endif %}
+  <h1>{{ page.title }}</h1>
+  {% if page.collection == 'research' %}
+    <div class="coauthors">{{ page.excerpt | markdownify }}</div>
+    {% include classic-funding.html paper=page %}
+    <h2>Abstract</h2>
+    {{ content }}
+    <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
+    {% if page.paperurl %}<a href="{{ page.paperurl }}">Download paper &darr;</a>{% endif %}
+  {% else %}
+    <p class="course-term">{{ page.term }} &middot; {{ page.venue }}</p>
+    <p>{{ page.type }}{% if page.professor %}<br>Professor {{ page.professor }}{% endif %}</p>
+    {{ content }}
+  {% endif %}
+</article>

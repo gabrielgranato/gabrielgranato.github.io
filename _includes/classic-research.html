@@ -1,0 +1,23 @@
+{% assign papers = site.research | sort: 'order' %}
+<div class="paper-list">
+  {% for paper in papers %}
+    <article class="paper">
+      <p class="eyebrow">{{ paper.status }}</p>
+      <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+      <div class="coauthors">{{ paper.excerpt | markdownify }}</div>
+      {% include classic-funding.html paper=paper %}
+      <div class="paper-actions">
+        {% if paper.abstract %}
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <div class="abstract-content">
+              <p>{{ paper.abstract }}</p>
+              <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
+            </div>
+          </details>
+        {% endif %}
+        {% if paper.paperurl %}<a class="paper-download" href="{{ paper.paperurl }}">Download paper &darr;</a>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

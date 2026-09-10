@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    {% include head/custom.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/classic.css' | relative_url }}">
+  </head>
+  <body class="classic-site">
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <a class="site-name" href="{{ '/' | relative_url }}" aria-label="Gabriel Granato home">{% if page.url == '/' %}GG{% else %}Gabriel Granato{% endif %}</a>
+      <nav aria-label="Main navigation">
+        {% for link in site.data.navigation.main %}
+          <a href="{{ link.url | relative_url }}"{% if page.url contains link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    <main id="content" class="site-content">{{ content }}</main>
+    <footer class="site-footer">
+      <span>Berkeley, California</span>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      <a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    </footer>
+  </body>
+</html>

@@ -1,12 +1,18 @@
 ---
-layout: archive
+layout: classic
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
-
+<div class="section-heading"><h1>Teaching</h1><p>University of California, Berkeley</p></div>
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <article class="course">
+    <p class="course-term">{{ post.term }}</p>
+    <div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.venue }} &middot; {{ post.type }}</p>
+      {% if post.professor %}<p>Professor {{ post.professor }}</p>{% endif %}
+    </div>
+  </article>
 {% endfor %}

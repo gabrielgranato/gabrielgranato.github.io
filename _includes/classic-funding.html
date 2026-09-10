@@ -1,0 +1,6 @@
+{% if include.paper.funding %}
+  <div class="funding" aria-label="Research funding">
+    <span class="funding-label">Funded by</span>
+    <ul>{% for funder in include.paper.funding %}<li>{{ funder }}</li>{% endfor %}</ul>
+  </div>
+{% endif %}
