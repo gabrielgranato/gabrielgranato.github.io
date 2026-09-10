@@ -1,0 +1,92 @@
+.classic-site {
+  --ink: #252d29;
+  --muted: #606b64;
+  --accent: #286044;
+  --line: #dce3de;
+  --soft: #f3f6f4;
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font: 17px/1.75 Georgia, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+}
+.classic-site *, .classic-site *::before, .classic-site *::after { box-sizing: border-box; letter-spacing: 0; }
+.classic-site a { color: var(--accent); text-underline-offset: 4px; }
+.classic-site a:hover { text-decoration: underline; }
+.classic-site a:focus-visible, .classic-site summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.site-header, .site-content, .site-footer { width: min(940px, calc(100% - 64px)); margin-inline: auto; }
+.site-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 91px; border-bottom: 1px solid var(--line); }
+.site-header a { text-decoration: none; }
+.site-name { font-size: 21px; color: var(--ink) !important; }
+.site-header nav { display: flex; gap: 32px; font: 14px/1.5 Arial, sans-serif; }
+.site-header nav a { padding: 14px 0; }
+.site-header nav a[aria-current] { text-decoration: underline; }
+.site-content { min-height: 65vh; padding-block: 48px 56px; }
+.classic-site h1, .classic-site h2, .classic-site h3 { font-weight: 400; line-height: 1.25; }
+.classic-site h1 { font-size: 42px; margin: 0 0 22px; }
+.classic-site h2 { font-size: 28px; margin: 0 0 20px; }
+.classic-site h3 { font-size: 23px; margin: 0 0 10px; }
+.classic-site p { margin: 0 0 18px; }
+.profile-intro { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 42px; align-items: start; padding: 0 0 40px; }
+.profile-photo { display: block; width: 190px; height: 238px; object-fit: cover; border-radius: 3px; background: var(--soft); }
+.profile-photo.is-placeholder { object-fit: contain; padding: 14px; }
+.profile-text .affiliation { font: 14px/1.7 Arial, sans-serif; color: var(--muted); margin: 0 0 24px; }
+.profile-text .education { color: var(--muted); font-size: 15px; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 22px; font: 13px/1.5 Arial, sans-serif; margin-top: 24px; }
+.profile-links a { padding-block: 5px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px; border-bottom: 1px solid var(--ink); padding-bottom: 15px; }
+.section-heading h1, .section-heading h2 { margin: 0; }
+.section-heading p, .section-heading a { margin: 0; font: 13px/1.5 Arial, sans-serif; color: var(--muted); }
+.paper { padding-block: 28px; border-bottom: 1px solid var(--line); }
+.paper h3 { max-width: 790px; }
+.paper h3 a { color: var(--ink); text-decoration: none; }
+.paper h3 a:hover { color: var(--accent); text-decoration: underline; }
+.classic-site .eyebrow { font: 12px/1.6 Arial, sans-serif; color: var(--accent); margin: 0 0 10px; }
+.coauthors { color: var(--muted); font: 14px/1.65 Arial, sans-serif; }
+.coauthors p { margin-bottom: 14px; }
+.funding { display: flex; flex-wrap: wrap; align-items: baseline; gap: 7px 10px; margin: 14px 0 10px; font: 11px/1.6 Arial, sans-serif; color: var(--muted); }
+.funding-label { white-space: nowrap; }
+.funding ul { display: flex; gap: 6px; flex-wrap: wrap; list-style: none; padding: 0; margin: 0; }
+.funding li { padding: 3px 8px; background: var(--soft); border: 1px solid var(--line); border-radius: 3px; }
+.paper-actions { font: 13px/1.7 Arial, sans-serif; }
+.paper-abstract summary { width: max-content; cursor: pointer; color: var(--accent); padding-block: 10px; }
+.paper-abstract summary::marker { font-size: 10px; }
+.abstract-content { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 30px; padding-block: 15px 6px; }
+.abstract-content p { font: 16px/1.8 Georgia, serif; }
+.paper-image-placeholder { display: flex; justify-content: center; align-items: center; aspect-ratio: 3 / 2; background: var(--soft); border: 1px dashed var(--line); color: var(--muted); font: 12px/1.5 Arial, sans-serif; }
+.entry > .paper-image-placeholder { max-width: 400px; margin-bottom: 24px; }
+.paper-download { display: inline-block; padding-block: 10px; }
+.earlier-work { padding-top: 36px; max-width: 770px; }
+.earlier-work h2 { font-size: 24px; }
+.earlier-work h3 { font-size: 20px; }
+.earlier-work > p { color: var(--muted); font-size: 15px; }
+.course { display: grid; grid-template-columns: 135px minmax(0, 1fr); gap: 32px; padding-block: 28px; border-bottom: 1px solid var(--line); }
+.course h2 { font-size: 23px; margin-bottom: 10px; }
+.course h2 a { color: var(--ink); text-decoration: none; }
+.course p, .course-term { font: 14px/1.8 Arial, sans-serif; color: var(--muted); margin: 0; }
+.course .course-term { color: var(--accent); padding-top: 4px; }
+.entry { max-width: 780px; }
+.entry h1 { font-size: 36px; }
+.entry h2 { margin-top: 32px; }
+.back-link { display: inline-block; font: 13px/1.5 Arial, sans-serif; margin-bottom: 32px; }
+.site-footer { display: flex; flex-wrap: wrap; gap: 12px 24px; border-top: 1px solid var(--line); padding-block: 23px 30px; font: 12px/1.6 Arial, sans-serif; color: var(--muted); }
+.site-footer span { margin-right: auto; }
+.site-footer a { text-decoration: none; overflow-wrap: anywhere; }
+.skip-link { position: absolute; top: 10px; left: 10px; padding: 10px; background: #fff; transform: translateY(-160%); }
+.skip-link:focus { transform: none; }
+@media (max-width: 680px) {
+  .site-header, .site-content, .site-footer { width: calc(100% - 40px); }
+  .site-header { min-height: 76px; gap: 15px; }
+  .site-name { font-size: 18px; }
+  .site-header nav { gap: 20px; font-size: 13px; }
+  .site-content { padding-block: 30px 38px; }
+  .profile-intro { grid-template-columns: 1fr; gap: 25px; }
+  .profile-photo { width: 136px; height: 170px; }
+  .classic-site h1 { font-size: 36px; }
+  .classic-site h3, .course h2 { font-size: 21px; }
+  .classic-site h1, .classic-site h2, .classic-site h3 { overflow-wrap: anywhere; }
+  .abstract-content { grid-template-columns: 1fr; gap: 12px; }
+  .course { grid-template-columns: 1fr; gap: 10px; }
+  .site-footer span { width: 100%; }
+  .entry h1 { font-size: 30px; }
+}
