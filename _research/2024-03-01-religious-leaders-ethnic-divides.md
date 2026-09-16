@@ -1,5 +1,5 @@
 ---
-title: "Can Religion Bridge Ethnic Divides? Experimental Evidence from the DRC"
+title: "Can Religion Bridge Ethnic Divides? How Pastors in DRC Promote Collective Action Where Chiefs Cannot"
 collection: research
 category: manuscripts
 permalink: /research/religious-leaders-ethnic-divides
@@ -12,5 +12,5 @@ funding:
   - "Weiss Fund Research Grant"
   - "CEPR ReCIPE PhD Research Grant"
   - "J-PAL Multidisciplinary Grant"
-citation: "Granato, Gabriel and Elie Kabue. \"Can Religion Bridge Ethnic Divides? Experimental Evidence from the DRC.\" Job market paper."
+citation: "Granato, Gabriel and Elie Kabue. \"Can Religion Bridge Ethnic Divides? How Pastors in DRC Promote Collective Action Where Chiefs Cannot.\" Job market paper."
 ---
