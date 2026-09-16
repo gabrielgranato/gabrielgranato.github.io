@@ -33,7 +33,8 @@
 .profile-photo { display: block; width: 270px; height: 338px; object-fit: cover; border-radius: 3px; background: var(--soft); }
 .profile-photo.is-placeholder { object-fit: contain; padding: 14px; }
 .profile-text .affiliation { font: 14px/1.7 Arial, sans-serif; color: var(--muted); margin: 0 0 24px; }
-.profile-text .education { color: var(--muted); font-size: 15px; }
+.profile-text .education { color: var(--muted); font-size: 15px; text-wrap: pretty; }
+.education-degree { white-space: nowrap; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 22px; font: 13px/1.5 Arial, sans-serif; margin-top: 24px; }
 .profile-links a { padding-block: 5px; }
 .profile-links .cv-placeholder { padding-block: 5px; }
