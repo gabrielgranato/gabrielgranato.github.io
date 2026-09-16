@@ -18,7 +18,7 @@ redirect_from:
 
 My research lies at the intersection of development economics, political economy, and organizational economics. I study the political economy of development, with an emphasis on the organizational foundations of informal institutions: the local arrangements through which communities solve collective-action problems where formal state capacity is limited.
 
-<p class="education">Before Berkeley, I earned an M.Sc. in Economics from PUC-Rio and a B.A. in Economics from IBMEC.</p>
+<p class="education">Before Berkeley, I earned an M.Sc. in Economics from PUC-Rio and a <span class="education-degree">B.A. in Economics from IBMEC.</span></p>
 
 <div class="profile-links"><span class="cv-placeholder">CV forthcoming</span><a href="mailto:gabrielgranato@berkeley.edu">Email</a><a href="https://twitter.com/gabrielsgranato">Twitter</a><a href="https://github.com/gabrielgranato">GitHub</a></div>
 
