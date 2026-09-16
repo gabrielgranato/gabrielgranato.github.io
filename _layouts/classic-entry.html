@@ -4,7 +4,7 @@ layout: classic
 <article class="entry">
   <a class="back-link" href="{{ page.collection | prepend: '/' | append: '/' | relative_url }}">&larr; {{ page.collection | capitalize }}</a>
   {% if page.status %}<p class="eyebrow">{{ page.status }}</p>{% endif %}
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.short_title | default: page.title }}{% if page.subtitle %}<br><span class="paper-subtitle">{{ page.subtitle }}</span>{% endif %}</h1>
   {% if page.collection == 'research' %}
     <div class="coauthors">{{ page.excerpt | markdownify }}</div>
     {% include classic-funding.html paper=page %}

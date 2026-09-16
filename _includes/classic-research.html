@@ -3,7 +3,7 @@
   {% for paper in papers %}
     <article class="paper">
       <p class="eyebrow">{{ paper.status }}</p>
-      <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+      <h3><a href="{{ paper.url | relative_url }}">{{ paper.short_title | default: paper.title }}{% if paper.subtitle %}<br><span class="paper-subtitle">{{ paper.subtitle }}</span>{% endif %}</a></h3>
       <div class="coauthors">{{ paper.excerpt | markdownify }}</div>
       {% include classic-funding.html paper=paper %}
       <div class="paper-actions">

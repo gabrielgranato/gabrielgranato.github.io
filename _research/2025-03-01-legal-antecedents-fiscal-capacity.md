@@ -1,5 +1,7 @@
 ---
 title: "Legal Antecedents of Fiscal Capacity: Experimental Evidence from Congo"
+short_title: "Legal Antecedents of Fiscal Capacity:"
+subtitle: "Experimental Evidence from Congo"
 collection: research
 category: manuscripts
 permalink: /research/legal-antecedents-fiscal-capacity

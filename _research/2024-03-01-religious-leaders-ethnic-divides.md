@@ -1,5 +1,7 @@
 ---
 title: "Can Religion Bridge Ethnic Divides? How Pastors in DRC Promote Collective Action Where Chiefs Cannot"
+short_title: "Can Religion Bridge Ethnic Divides?"
+subtitle: "How Pastors in DRC Promote Collective Action Where Chiefs Cannot"
 collection: research
 category: manuscripts
 permalink: /research/religious-leaders-ethnic-divides
