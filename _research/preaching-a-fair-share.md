@@ -8,5 +8,5 @@ redirect_from:
   - /research/signals-noise-narratives.html
 excerpt: "With Clotaire Boyer and Jonathan Weigel."
 order: 2
-status: "RCT ongoing; endline data collection in progress."
+status: "Work in progress"
 ---
