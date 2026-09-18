@@ -16,7 +16,7 @@ redirect_from:
 
 <p class="affiliation">Ph.D. student in Business and Public Policy<br>Haas School of Business, University of California, Berkeley</p>
 
-My research lies at the intersection of development economics, political economy, and organizational economics. I study the political economy of development, with an emphasis on the organizational foundations of informal institutions: the local arrangements through which communities solve collective-action problems where formal state capacity is limited.
+My research lies at the intersection of development economics, political economy, and organizational economics. I study the political economy of development, with an emphasis on how informal institutions organize collective action and complement public good provision where state reach is limited.
 
 <p class="education">Before Berkeley, I earned an M.Sc. in Economics from PUC-Rio and a <span class="education-degree">B.A. in Economics from IBMEC.</span></p>
 
