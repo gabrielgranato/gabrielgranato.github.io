@@ -11,12 +11,10 @@ redirect_from:
 excerpt: "With Clotaire Boyer and Jonathan Weigel."
 order: 2
 status: "Work in progress"
-image: /images/preaching-fair-share.jpeg
-image_alt: "Fieldwork discussion around a table in the Democratic Republic of the Congo."
-image_width: 1106
-image_height: 622
-image_source_name: "Clotaire Boyer"
-image_source_url: "https://clotaireboyer.github.io/Academic-Website-Clotaire-Boyer/research.html"
+image: /images/preaching-fair-share-church.jpg
+image_alt: "Exterior of La Borne evangelical church."
+image_width: 1600
+image_height: 1200
 abstract: >-
   Why should the rich pay more? An individual moral economy treats prosperity as
   the fruit of faith and effort, carrying a personal duty to give back. A
