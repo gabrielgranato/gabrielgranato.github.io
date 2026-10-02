@@ -62,7 +62,6 @@
 .paper-image { min-width: 0; margin: 0; align-self: start; }
 .paper-image > a { display: block; }
 .paper-image img { display: block; width: 100%; height: auto; border-radius: 3px; }
-.paper-image figcaption { margin-top: 8px; color: var(--muted); font: 11px/1.5 Arial, sans-serif; }
 .entry > .paper-image { max-width: 640px; margin-bottom: 24px; }
 .paper-image-placeholder { display: flex; justify-content: center; align-items: center; aspect-ratio: 3 / 2; background: var(--soft); border: 1px dashed var(--line); color: var(--muted); font: 12px/1.5 Arial, sans-serif; }
 .entry > .paper-image-placeholder { max-width: 400px; margin-bottom: 24px; }
