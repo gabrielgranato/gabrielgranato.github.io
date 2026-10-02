@@ -18,6 +18,7 @@
         {% endif %}
         {% if paper.paperurl %}<a class="paper-download" href="{{ paper.paperurl }}">Download paper &darr;</a>{% endif %}
       </div>
+      {% if paper.coming_soon %}<p class="coming-soon">More coming soon.</p>{% endif %}
     </article>
   {% endfor %}
 </div>

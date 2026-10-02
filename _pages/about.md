@@ -30,5 +30,4 @@ My research lies at the intersection of development economics, political economy
 <section aria-labelledby="research-heading">
   <div class="section-heading"><h2 id="research-heading">Selected work in progress</h2><a href="{{ '/research/' | relative_url }}">Research &rarr;</a></div>
   {% include classic-research.html %}
-  <p class="coming-soon">More coming soon.</p>
 </section>
