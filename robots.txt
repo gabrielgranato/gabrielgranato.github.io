@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gabrielgranato.github.io/sitemap.xml
+Sitemap: https://gabrielgranato.com/sitemap.xml
