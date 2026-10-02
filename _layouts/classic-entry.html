@@ -11,7 +11,7 @@ layout: classic
     {% if page.abstract and page.abstract != '' %}
       <h2>Abstract</h2>
       <p>{{ page.abstract }}</p>
-      <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
+      {% include classic-paper-image.html paper=page %}
     {% endif %}
     {% if page.paperurl %}<a href="{{ page.paperurl }}">Download paper &darr;</a>{% endif %}
     {% if page.coming_soon %}<p class="coming-soon">More coming soon.</p>{% endif %}

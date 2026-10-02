@@ -12,6 +12,12 @@ excerpt: "With Augustin Bergeron, Eva Davoine, Marina Ngoma, James Robinson, and
 date: 2025-03-01
 order: 3
 status: "Work in progress"
+image: /images/legal-antecedents.jpg
+image_alt: "Officials outside the Provincial Ministry of Justice in Kasai-Central, DRC."
+image_width: 1600
+image_height: 1131
+image_source_name: "ODEKA"
+image_source_url: "https://www.odekalab.org/03_projects/index.html"
 abstract: >-
   This project studies a low-capacity state, the D.R. Congo, seeking to establish
   legal capacity and how its efforts to do so shape citizens' demand for the state.

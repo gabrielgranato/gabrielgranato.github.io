@@ -10,6 +10,10 @@ date: 2026-01-01
 order: 1
 status: "Job market paper"
 coming_soon: true
+image: /images/jmp-ceremony.jpg
+image_alt: "Residents gathered for a public-works ceremony in Kananga, DRC."
+image_width: 1040
+image_height: 780
 abstract: >-
   Ethnic fragmentation is thought to undermine economic development. In one
   prominent mechanism, greater free-riding in heterogeneous societies erodes the

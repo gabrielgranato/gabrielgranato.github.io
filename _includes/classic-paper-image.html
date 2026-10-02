@@ -1,0 +1,12 @@
+{% if include.paper.image %}
+  <figure class="paper-image">
+    <a href="{{ include.paper.image | relative_url }}" target="_blank" rel="noopener" aria-label="{{ include.paper.image_alt | prepend: 'View full-size image: ' | escape }}">
+      <img src="{{ include.paper.image | relative_url }}" alt="{{ include.paper.image_alt | escape }}" width="{{ include.paper.image_width }}" height="{{ include.paper.image_height }}" loading="lazy" decoding="async">
+    </a>
+    {% if include.paper.image_source_url %}
+      <figcaption>Source: <a href="{{ include.paper.image_source_url | escape }}">{{ include.paper.image_source_name }}</a></figcaption>
+    {% endif %}
+  </figure>
+{% else %}
+  <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
+{% endif %}
