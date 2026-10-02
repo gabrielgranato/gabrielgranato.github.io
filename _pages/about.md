@@ -14,7 +14,7 @@ redirect_from:
 
 # Gabriel Granato
 
-<p class="affiliation">Ph.D. student in Business and Public Policy<br>Haas School of Business, University of California, Berkeley</p>
+<p class="affiliation">Ph.D. candidate in Business and Public Policy<br>Haas School of Business, University of California, Berkeley</p>
 
 <p class="job-market-tag">On the 2026&ndash;2027 job market</p>
 
