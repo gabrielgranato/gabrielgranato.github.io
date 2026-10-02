@@ -30,9 +30,11 @@
 .classic-site h3 { font-size: 23px; margin: 0 0 10px; }
 .classic-site p { margin: 0 0 18px; }
 .profile-intro { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 42px; align-items: start; padding: 0 0 40px; }
-.profile-photo { display: block; width: 270px; height: 338px; object-fit: cover; border-radius: 3px; background: var(--soft); }
+.profile-photo { display: block; width: 270px; height: 338px; object-fit: cover; object-position: center 20%; border-radius: 3px; background: var(--soft); }
 .profile-photo.is-placeholder { object-fit: contain; padding: 14px; }
 .profile-text .affiliation { font: 14px/1.7 Arial, sans-serif; color: var(--muted); margin: 0 0 24px; }
+.profile-text .job-market-tag { display: inline-block; max-width: 100%; padding: 6px 11px; border: 1px solid var(--line); border-radius: 3px; background: var(--soft); color: var(--accent); font: 14px/1.5 Arial, sans-serif; margin: 0 0 24px; }
+.classic-site .coming-soon { margin: 24px 0 0; color: var(--muted); font: 14px/1.6 Arial, sans-serif; }
 .profile-text .education { color: var(--muted); font-size: 15px; text-wrap: pretty; }
 .education-degree { white-space: nowrap; }
 .profile-links { display: flex; flex-wrap: wrap; gap: 22px; font: 13px/1.5 Arial, sans-serif; margin-top: 24px; }
