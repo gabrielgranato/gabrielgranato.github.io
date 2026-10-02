@@ -1,7 +1,7 @@
 ---
-title: "Can Religion Bridge Ethnic Divides? How Pastors in DRC Promote Collective Action Where Chiefs Cannot"
+title: "Can Religion Bridge Ethnic Divides? Pastors, Chiefs, and Collective Action"
 short_title: "Can Religion Bridge Ethnic Divides?"
-subtitle: "How Pastors in DRC Promote Collective Action Where Chiefs Cannot"
+subtitle: "Pastors, Chiefs, and Collective Action"
 collection: research
 category: manuscripts
 permalink: /research/religious-leaders-ethnic-divides
@@ -38,5 +38,5 @@ funding:
   - "Weiss Fund Research Grant"
   - "CEPR ReCIPE PhD Research Grant"
   - "J-PAL Multidisciplinary Grant"
-citation: "Granato, Gabriel and Elie Kabue Ngindu. \"Can Religion Bridge Ethnic Divides? How Pastors in DRC Promote Collective Action Where Chiefs Cannot.\" Job market paper."
+citation: "Granato, Gabriel and Elie Kabue Ngindu. \"Can Religion Bridge Ethnic Divides? Pastors, Chiefs, and Collective Action.\" Job market paper."
 ---
