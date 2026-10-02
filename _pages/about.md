@@ -16,6 +16,8 @@ redirect_from:
 
 <p class="affiliation">Ph.D. student in Business and Public Policy<br>Haas School of Business, University of California, Berkeley</p>
 
+<p class="job-market-tag">On the 2026&ndash;2027 job market</p>
+
 My research lies at the intersection of development economics, political economy, and organizational economics. I study the political economy of development, with an emphasis on how informal institutions organize collective action and complement public good provision where state reach is limited.
 
 <p class="education">Before Berkeley, I earned an M.Sc. in Economics from PUC-Rio and a <span class="education-degree">B.A. in Economics from IBMEC.</span></p>
@@ -28,4 +30,5 @@ My research lies at the intersection of development economics, political economy
 <section aria-labelledby="research-heading">
   <div class="section-heading"><h2 id="research-heading">Selected work in progress</h2><a href="{{ '/research/' | relative_url }}">Research &rarr;</a></div>
   {% include classic-research.html %}
+  <p class="coming-soon">More coming soon.</p>
 </section>
