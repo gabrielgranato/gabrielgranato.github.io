@@ -50,7 +50,6 @@
 
     {% if post.collection == 'research' and post.funding %}
       <p class="publication-funding">
-        <span class="publication-funding__label">Funded by</span>
         {% for funder in post.funding %}
           <span class="publication-funding__tag">{{ funder }}</span>
         {% endfor %}
