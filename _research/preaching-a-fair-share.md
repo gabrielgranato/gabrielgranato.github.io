@@ -1,7 +1,7 @@
 ---
-title: "Preaching a Fair Share: Religious Appeals and the Moral Economy of Taxation"
+title: "Preaching a Fair Share: Religious Appeals and the Moral Economy of Progressive Taxation"
 short_title: "Preaching a Fair Share:"
-subtitle: "Religious Appeals and the Moral Economy of Taxation"
+subtitle: "Religious Appeals and the Moral Economy of Progressive Taxation"
 collection: research
 category: manuscripts
 permalink: /research/preaching-a-fair-share
@@ -16,10 +16,12 @@ image_alt: "Exterior of La Borne evangelical church."
 image_width: 1600
 image_height: 1200
 abstract: >-
-  Why should the rich pay more? An individual moral economy treats prosperity as
-  the fruit of faith and effort, carrying a personal duty to give back. A
-  collective moral economy emphasizes shared responsibility for poverty and
-  support for the disadvantaged. Religious traditions place different emphasis on
+  Why should the rich pay more? Preferences for redistribution depend on whether
+  people view economic success as the reward for effort and merit or the result
+  of luck and circumstances beyond individual control. An individual moral
+  economy stresses personal responsibility for prosperity and giving back; a
+  collective moral economy emphasizes unequal opportunities and shared
+  responsibility for poverty. Religious traditions place different emphasis on
   these accounts, with potentially different implications for redistributive
   preferences. We study their implications in the context of a progressive
   taxation reform through a randomized experiment with churches in Kananga,

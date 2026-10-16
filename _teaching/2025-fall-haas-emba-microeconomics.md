@@ -1,7 +1,7 @@
 ---
-title: "Economics for Business Decision Making (Microeconomics)"
+title: "Economics for Business Decision Making"
 collection: teaching
-type: "Teaching assistant"
+type: "Graduate Student Instructor"
 permalink: /teaching/2025-fall-haas-emba-microeconomics
 venue: "Berkeley Haas EMBA"
 date: 2025-08-01

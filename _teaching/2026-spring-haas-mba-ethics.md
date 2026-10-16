@@ -1,7 +1,7 @@
 ---
-title: "Ethics and Responsibility in Business"
+title: "Ethics and Responsible Business Leadership"
 collection: teaching
-type: "Teaching assistant"
+type: "Graduate Student Instructor"
 permalink: /teaching/2026-spring-haas-mba-ethics
 venue: "Berkeley Haas MBA"
 date: 2026-01-01

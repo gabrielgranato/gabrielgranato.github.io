@@ -1,7 +1,7 @@
 ---
 title: "Econometrics"
 collection: teaching
-type: "Teaching assistant"
+type: "Graduate Student Instructor"
 permalink: /teaching/2022-spring-econometrics
 venue: "UC Berkeley undergraduate course"
 date: 2022-01-01
