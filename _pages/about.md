@@ -22,7 +22,7 @@ My research lies at the intersection of development economics, political economy
 
 <p class="education">Before Berkeley, I earned an M.Sc. in Economics from PUC-Rio and a <span class="education-degree">B.A. in Economics from IBMEC.</span></p>
 
-<div class="profile-links"><span class="cv-placeholder">CV forthcoming</span><a href="mailto:gabrielgranato@berkeley.edu">Email</a><a href="https://twitter.com/gabrielsgranato">Twitter</a><a href="https://github.com/gabrielgranato">GitHub</a></div>
+<div class="profile-links"><a href="{{ '/files/Gabriel_Granato_CV.pdf' | relative_url }}">CV</a><a href="mailto:gabrielgranato@berkeley.edu">Email</a><a href="https://twitter.com/gabrielsgranato">Twitter</a><a href="https://github.com/gabrielgranato">GitHub</a></div>
 
   </div>
 </section>

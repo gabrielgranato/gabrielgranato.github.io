@@ -1,7 +1,7 @@
 ---
-title: "Preaching a Fair Share: Religious Appeals and the Moral Economy of Progressive Taxation"
-short_title: "Preaching a Fair Share:"
-subtitle: "Religious Appeals and the Moral Economy of Progressive Taxation"
+title: "Is Pentecostalism Eroding Support for Redistribution in Africa? Evidence from the DRC"
+short_title: "Is Pentecostalism Eroding Support for Redistribution in Africa?"
+subtitle: "Evidence from the DRC"
 collection: research
 category: manuscripts
 permalink: /research/preaching-a-fair-share
@@ -9,7 +9,7 @@ redirect_from:
   - /research/signals-noise-narratives
   - /research/signals-noise-narratives.html
 excerpt: "With Clotaire Boyer and Jonathan Weigel."
-order: 2
+order: 3
 status: "Work in progress"
 image: /images/preaching-fair-share-church.jpg
 image_alt: "Exterior of La Borne evangelical church."
@@ -26,13 +26,14 @@ abstract: >-
   preferences. We study their implications in the context of a progressive
   taxation reform through a randomized experiment with churches in Kananga,
   Democratic Republic of the Congo. The tax administration asks pastors to relay
-  property-tax information to their congregations. We randomly assign pastors to
-  receive this request alone, the request with suggested sermons justifying higher
-  taxes on the better-off through individual or collective responsibility, or no
-  materials. Pastors choose whether and how to convey these messages. Recorded
+  property-tax information to their congregations. Pastors are randomly assigned
+  to four groups: no materials; the request alone; the request with suggested
+  sermons framing progressive taxation as an individual responsibility; or the
+  request with sermons framing it as a collective responsibility. Pastors choose
+  whether and how to convey these messages. Recorded
   sermons, congregant surveys, and administrative payment records measure message
   uptake, beliefs about poverty and wealth, support for progressive taxation and
-  redistribution, and tax compliance. The experiment tests whether these appeals
-  motivate citizens to finance the state and whether their effectiveness depends
-  on pastors' and congregants' religious beliefs.
+  redistribution, and tax compliance. We test whether these appeals
+  motivate citizens to finance the state and how their effectiveness varies with
+  pastors' and congregants' religious beliefs.
 ---
