@@ -234,6 +234,11 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # Direct-link paper downloads must not appear in the sitemap.
+  - scope:
+      path: "files/papers/**"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
