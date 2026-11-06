@@ -1,9 +1,17 @@
 {% if include.paper.image %}
+  {% if include.paper.image_crop_ratio %}
+  <figure class="paper-image">
+    <div class="paper-image-crop" style="aspect-ratio: {{ include.paper.image_crop_ratio }};">
+      <img src="{{ include.paper.image | relative_url }}" alt="{{ include.paper.image_alt | escape }}" width="{{ include.paper.image_width }}" height="{{ include.paper.image_height }}" loading="lazy" decoding="async">
+    </div>
+  </figure>
+  {% else %}
   <figure class="paper-image">
     <a href="{{ include.paper.image | relative_url }}" target="_blank" rel="noopener" aria-label="{{ include.paper.image_alt | prepend: 'View full-size image: ' | escape }}">
       <img src="{{ include.paper.image | relative_url }}" alt="{{ include.paper.image_alt | escape }}" width="{{ include.paper.image_width }}" height="{{ include.paper.image_height }}" loading="lazy" decoding="async">
     </a>
   </figure>
+  {% endif %}
 {% else %}
   <div class="paper-image-placeholder" role="img" aria-label="Paper image placeholder">Paper image</div>
 {% endif %}
