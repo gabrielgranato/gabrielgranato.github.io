@@ -9,7 +9,7 @@ excerpt: "With Elie Kabue Ngindu."
 date: 2026-01-01
 order: 1
 status: "Job market paper"
-coming_soon: true
+paperurl: /files/papers/Granato_JMP.pdf
 image: /images/jmp-community-meeting.png
 image_alt: "Residents gathered for an outdoor community meeting in Kananga, DRC."
 image_width: 1080
