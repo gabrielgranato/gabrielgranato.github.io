@@ -18,7 +18,7 @@ redirect_from:
 
 <p class="job-market-tag">On the 2026&ndash;2027 job market</p>
 
-My research lies at the intersection of development economics, political economy, and organizational economics. I study how leaders shape economic development and local governance, with an emphasis on how informal institutions organize collective action and complement public good provision where state reach is limited.
+My research lies at the intersection of development economics, political economy, and organizational economics. I study how leaders and informal institutions shape economic development and local governance where state reach is limited. Through field experiments in the Democratic Republic of the Congo, I examine how ethnic ties and religious beliefs shape leaders’ influence on collective action, dispute resolution, and taxation.
 
 <p class="education">Before Berkeley, I earned an M.Sc. in Economics from PUC-Rio and a <span class="education-degree">B.A. in Economics from IBMEC.</span></p>
 
