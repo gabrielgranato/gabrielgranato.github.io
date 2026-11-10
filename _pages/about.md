@@ -32,7 +32,3 @@ My research lies at the intersection of development economics, political economy
   {% include classic-research.html %}
 </section>
 
-<section aria-labelledby="participation-heading">
-  <div class="section-heading"><h2 id="participation-heading">Invited participation</h2></div>
-  <p>Invited participant (non-presenting) at the forthcoming NBER <a href="https://www.nber.org/conferences/political-economy-program-meeting-fall-2026">Political Economy Program Meeting</a> (November 13, 2026) and <a href="https://www.nber.org/conferences/economics-religion-fall-2026">Economics of Religion</a> conference (November 14, 2026), San Francisco.</p>
-</section>
