@@ -35,10 +35,7 @@ abstract: >-
   mobilizes labor contributions through social enforcement while the pastor
   uses internal incentives. The paper provides the first experimental evidence
   on how religious leaders can sustain voluntary public-goods provision in
-  fragmented societies. Our findings underscore how fragmentation changes who
-  can mobilize collective action. It favors leaders who make contributing a
-  matter of internalized duty over those who make it a matter of social
-  pressure.
+  fragmented societies.
 funding:
   - "CEGA Development Economics Challenge"
   - "Weiss Fund Research Grant"
