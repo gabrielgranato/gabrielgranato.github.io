@@ -68,6 +68,7 @@
 .paper-image-placeholder { display: flex; justify-content: center; align-items: center; aspect-ratio: 3 / 2; background: var(--soft); border: 1px dashed var(--line); color: var(--muted); font: 12px/1.5 Arial, sans-serif; }
 .entry > .paper-image-placeholder { max-width: 400px; margin-bottom: 24px; }
 .paper-download { display: inline-block; padding-block: 10px; }
+.paper-coverage { display: inline-block; margin: 6px 0 6px 12px; padding: 3px 8px; border: 1px solid currentColor; border-radius: 3px; font: 12px/1.5 Arial, sans-serif; vertical-align: middle; }
 .earlier-work { padding-top: 36px; max-width: 770px; }
 .earlier-work h2 { font-size: 24px; }
 .earlier-work h3 { font-size: 20px; }

@@ -16,6 +16,8 @@
           </details>
         {% endif %}
         {% if paper.paperurl %}<a class="paper-download" href="{{ paper.paperurl }}">Download paper &darr;</a>{% endif %}
+        {% if paper.coverage_url %}<a class="paper-coverage" href="{{ paper.coverage_url }}">{{ paper.coverage_label }}</a>{% endif %}
+        {% if paper.pap_url %}<a class="paper-coverage" href="{{ paper.pap_url | relative_url }}">Pre-analysis plan</a>{% endif %}
       </div>
       {% if paper.coming_soon %}<p class="coming-soon">More coming soon.</p>{% endif %}
     </article>

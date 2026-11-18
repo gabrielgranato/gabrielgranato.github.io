@@ -13,6 +13,8 @@ layout: classic
       {% include classic-paper-image.html paper=page %}
     {% endif %}
     {% if page.paperurl %}<a href="{{ page.paperurl }}">Download paper &darr;</a>{% endif %}
+    {% if page.coverage_url %}<a class="paper-coverage" href="{{ page.coverage_url }}">{{ page.coverage_label }}</a>{% endif %}
+    {% if page.pap_url %}<a class="paper-coverage" href="{{ page.pap_url | relative_url }}">Pre-analysis plan</a>{% endif %}
     {% if page.coming_soon %}<p class="coming-soon">More coming soon.</p>{% endif %}
   {% else %}
     <p class="course-term">{{ page.term }} &middot; {{ page.venue }}</p>
