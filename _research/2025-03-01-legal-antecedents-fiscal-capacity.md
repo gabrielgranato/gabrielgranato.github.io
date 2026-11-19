@@ -1,6 +1,5 @@
 ---
 title: "Formal and Informal Justice in a Fragile State"
-pap_url: /files/papers/Granato_Formal_and_Informal_Justice_PAP.pdf
 collection: research
 category: manuscripts
 permalink: /research/legal-antecedents-fiscal-capacity
