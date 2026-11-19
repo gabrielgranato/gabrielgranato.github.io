@@ -12,7 +12,6 @@ status: "Job market paper"
 paperurl: /files/papers/Granato_JMP.pdf
 coverage_url: https://blogs.worldbank.org/en/impactevaluations/can-religion-bridge-ethnic-divides--how-pastors-in-the-drc-promo
 coverage_label: "World Bank coverage"
-pap_url: /files/papers/Granato_PAP.pdf
 image: /images/jmp-community-meeting.png
 image_alt: "Residents gathered for an outdoor community meeting in Kananga, DRC."
 image_width: 1080
